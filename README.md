@@ -6,7 +6,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
+This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days. 
 
 You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency ReactJS Fundamentals and your command of the concepts and techniques in the Function Components and Class Components.
 
@@ -29,9 +29,23 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+      1. A token is used by the server to authenticate a user and make sure it is sending the correct data back to the right person.  
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+      1. Use randomized auth tokens, don't store passwords in local storage or plain text in general
+
 - [ ] Describe how web servers work.
+
+      1. A web server uses HTTP to serve files of a website/web app to users in response to their request for that info
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+      1.  .get is the "Retrieve"
+      2.  .post is the "Create
+      3.  .put is the "Update"
+      4.  .delete is the "Delete"
 
 
 ## Project Set Up
@@ -46,7 +60,7 @@ Follow these steps to set up and work on your project:
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 - [ ] **RUN** `yarn install or npm install` at the root to retrieve all the dependencies for the node server. You will not need to create any react apps here nor will you need to install any other dependencies. You should have all you need in this repo.
 - [ ] **LOOK** at all the files you've been given for this project. One important file to note is `server.js`. This file contains an **API** that you are going to be interfacing with. Below is documentation on how to interact with the **API**.
-- [ ] **RUN** `yarn start or npm start` to get your API up and running on `http://localhost:3333`. This is the **URL** you're going to need to use within your React app in order to make AJAX requests for data.
+- [ ] **RUN** `yarn start or npm start` to get your API up and running on `http://localhost:5000`. This is the **URL** you're going to need to use within your React app in order to make AJAX requests for data.
 - [ ] **LOOK** at your `client` directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
 - [ ] **cd** into `client` and run `yarn install or npm install` to retrieve the client side dependencies.
 - [ ] **RUN** `yarn start or npm start` to fire up your React application.
