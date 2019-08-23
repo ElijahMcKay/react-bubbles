@@ -49,7 +49,7 @@ const ColorList = ({ colors, updateColors }) => {
               <span className="delete" onClick={() => deleteColor(color)}>
                 x
               </span>{" "}
-              {color.color}
+              {color.color} 
             </span>
             <div
               className="color-box"
